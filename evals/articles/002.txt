@@ -1,0 +1,63 @@
+Why are eight US states suing OpenAI?
+
+They allege ChatGPT has caused harm to their residents, coaching its users — including teenagers — to harm themselves or others.
+
+Eight US states have filed the most significant coordinated state action against tech giant OpenAI, adding to a wave of legal challenges that the firm is facing as it prepares for a public listing.
+
+Recent legal and regulatory challenges have highlighted concerns about how AI chatbots and social media platforms are used and triggered discussions on policies for identifying and addressing user conversations that threaten violence.
+
+Calls have been growing for AI companies to be held accountable for the impact of their digital platforms on users, specifically children, who are particularly susceptible to addiction and other harms.
+
+What is this legal action about?
+
+Florida filed the first lawsuit in June, alleging that the platform has harmed children by enabling information to be gathered by school shooters, providing access to guidance on self-harm and using addictive algorithms to keep young users hooked.
+
+It cited a shooting at Florida State University in Tallahassee in April 2025, when a 20-year-old gunman shot dead two adults and wounded five others. According to the lawsuit, gunman Phoenix Ikner consulted OpenAI’s ChatGPT programme about what type of weapon and ammunition to use and at what time campus would be busiest.
+
+On Wednesday, attorneys general from eight states – Iowa, Kansas, Arizona, Arkansas, Idaho, Montana, Nebraska and West Virginia – said they had also sued OpenAI in courts across the country.
+
+They all claim ChatGPT has caused harm to their residents, alleging the chatbot has coached its users – including teenagers – to harm themselves or others.
+
+Iowa Attorney General Brenna Bird said in a statement that OpenAI was “hurting kids and they are lying to Iowans.”
+
+“OpenAI claims ChatGPT is safe while it’s giving dangerous medical advice, encouraging people to hurt others, and coaching people to commit suicide—all while pretending to be their fake friend,” she said.
+
+West Virginia Attorney General JB McCuskey said the chatbot lacks adequate safeguards for sensitive conversations involving suicide, school shootings and self-harm. “We must do all we can to protect kids,” McCuskey said.
+
+What are the allegations?
+
+The legal action alleges that ChatGPT has been designed to be “agreeable and engaging to earn the trust of users”. In doing so, it reinforces delusions, encourages dangerous behaviour and assists users in planning violence like mass shootings.
+
+Additionally, the suits accuse OpenAI of violating state consumer protection laws by misleading users about the safety of their AI tool, which in fact poses a danger to the health of the states’ residents.
+
+The states are seeking orders forcing OpenAI to make substantial changes to how ChatGPT works, as well as measures barring the company from developing AI models that can improve themselves until it can ensure those models are aligned with human values.
+
+Nebraska Attorney General Mike Hilgers said the lawsuit “simply holds OpenAI to the same standards under Nebraska law as any other company”.
+
+How has OpenAI responded?
+
+OpenAI spokesperson Drew Pusateri gave a statement to the media, saying that the company has “built industry-leading age-specific protections into our product that many other AI products lack”.
+
+“While no system can be perfect, we’ll continue to work with experts to inform our work and build additional safeguards, such as the parental controls, break reminders and age-appropriate model protections that exist today,” Pusateri said.
+
+“We’re committed to working with states on advancing pragmatic AI policies that apply to the entire AI industry, not just one company.”
+
+What other lawsuits is the tech giant facing?
+
+OpenAI is also facing dozens of lawsuits by private plaintiffs alleging ChatGPT helped users plan mass shootings or other violence.
+
+A mother, whose two children use the chatbot, alleged in a proposed class action lawsuit filed on Tuesday in San Francisco federal court that OpenAI illegally profits from the personal information and data that minors share with ChatGPT.
+
+The lawsuit claims the chatbot is designed to collect data and information from minors, which is then used to train OpenAI’s AI models. Minors can’t consent to the use of their data under California law.
+
+In July, a Florida pastor sued OpenAI and its chief executive, Sam Altman, claiming ChatGPT’s inaccurate medical advice kept him from seeking treatment for recurrent dizzy spells, leading him to suffer a pulmonary embolism that nearly killed him.
+
+OpenAI is also facing a series of lawsuits over its failure to alert authorities to threats made on ChatGPT in advance of one of the worst mass shootings in Canada’s history.
+
+The province of British Columbia filed a lawsuit against OpenAI in a California court in September, seven months after 18-year-old Jesse Van Rootselaar shot eight people in the small Canadian town of Tumbler Ridge, including his mother and half-brother, before dying by suicide.
+
+The lawsuit alleges that OpenAI had failed to notify authorities about concerning user interactions on ChatGPT, accusing the company of “aiding and abetting a mass shooting”.
+
+Victims of that shooting and their families filed 30 lawsuits against OpenAI in the Northern District of California in the San Francisco division at the start of September, alleging that “ChatGPT played a role in the mass shooting and OpenAI could have, and should have, prevented it”.
+
+OpenAI said it had flagged a ChatGPT account linked to Van Rootselaar for abuse eight months before the shooting, and deactivated it, but did not alert police at the time because the user’s content “did not meet the higher threshold required for referral” – meaning the company did not believe it indicated a credible, imminent risk of a plan for violent acts.

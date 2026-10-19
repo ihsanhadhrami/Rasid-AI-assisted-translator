@@ -1,0 +1,33 @@
+[project]
+name = "rasid"
+version = "0.1.0"
+description = "AI-assisted Malay/English to Arabic news-brief tool with human final review"
+readme = "README.md"
+authors = [
+    { name = "Ihsan Hadhrami", email = "ihadhrami20@gmail.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "anthropic>=1.15.0",
+    "gradio>=5.0,<6",
+    "pydantic>=2.14.1",
+    "pydantic-settings>=2.16.0",
+    "rapidfuzz>=3.14.6",
+    "requests>=2.34.2",
+    "tenacity>=9.2.1",
+]
+
+[project.scripts]
+rasid = "rasid.cli:main"
+
+[build-system]
+requires = ["uv_build>=0.12.23,<0.13.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+    "ruff>=0.17.1",
+    "sacrebleu>=2.6.0",
+]
+
