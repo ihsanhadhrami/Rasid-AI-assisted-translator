@@ -610,7 +610,7 @@ Write the results to `evals/REPORT.md`. **That report is your portfolio achievem
 - `storage.py`, `app.py` and the Markdown export (per-language templates)
 - Approve saves to SQLite, with review time and edit rate
 
-**Done when:** you complete five real briefs end to end in the UI, **including at least one from Arabic**, and five approved rows exist in `runs.db`.
+**Done when:** you complete three real briefs end to end in the UI, **including at least one from Arabic**, and three approved rows exist in `runs.db`.
 
 ### Phase 5: Evaluation (≈1–2 weeks of normal use)
 

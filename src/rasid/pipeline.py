@@ -1,10 +1,12 @@
 import time
 import uuid
 from functools import lru_cache
+from pathlib import Path
 
-from rasid import llm
+from rasid import llm, storage
 from rasid.checks import run_checks
 from rasid.config import DATA_DIR, PROMPTS_DIR
+from rasid.export import EXPORT_DIR, write_markdown
 from rasid.glossary import GlossaryEntry, format_for_prompt, load_glossary
 from rasid.languages import NAMES, Direction
 from rasid.schemas import (
@@ -188,3 +190,34 @@ def run(
         usage=[u1, u2],
         ai_seconds=round(time.perf_counter() - t0, 2),
     )
+
+
+class ApprovalError(ValueError):
+    pass
+
+
+def approve(
+    run_id: str,
+    final_translation: str,
+    final_significance: str,
+    source_assessment: str,
+    review_seconds: float,
+    manual_baseline_minutes: float | None = None,
+    db_path: Path = storage.DB_PATH,
+    export_dir: Path = EXPORT_DIR,
+) -> Path:
+    """Save the human-approved brief and export it. The source assessment is the human's step."""
+    if not source_assessment.strip():
+        raise ApprovalError("Write the source assessment before approving.")
+    if not final_translation.strip():
+        raise ApprovalError("The translation is empty.")
+    row = storage.approve(
+        run_id,
+        final_translation,
+        final_significance,
+        source_assessment,
+        review_seconds,
+        manual_baseline_minutes,
+        db_path,
+    )
+    return write_markdown(row, export_dir)
